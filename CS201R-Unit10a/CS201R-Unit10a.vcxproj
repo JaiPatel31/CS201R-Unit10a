@@ -134,6 +134,8 @@
   <ItemGroup>
     <ClInclude Include="functions.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt" />

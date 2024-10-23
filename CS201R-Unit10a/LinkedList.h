@@ -16,15 +16,15 @@ struct Node {
 };
 
 class LinkedList {
-private:
+protected:
 	Node* headPtr;
 	Node* tailPtr;
 public:
 	LinkedList();
 	LinkedList(dataType);
 	~LinkedList();
-	void addNode(dataType d);
+	void virtual addNode(dataType d);
 	void addNodeOrdered(dataType d);
-	void delNode(string name);
+	void virtual delNode(string name);
 	void printList();
 };

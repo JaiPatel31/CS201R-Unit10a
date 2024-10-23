@@ -93,14 +93,14 @@ void exampleStack() {
         cout << "Error opening files";
         return;
     }
-    /*
+    
     Stack stack1;
     readFile(inFile, stack1);
     stack1.delNode();
     stack1.delNode();
     stack1.delNode();
     stack1.printList();
-    */
+    
     inFile.close();
 }
 
@@ -113,13 +113,13 @@ void exampleQueue() {
         cout << "Error opening files";
         return;
     }
-    /*
+    
     Queue queue1;
     readFile(inFile, queue1);
     queue1.delNode();
     queue1.delNode();
     queue1.delNode();
     queue1.printList();
-    */
+    
     inFile.close();
 }

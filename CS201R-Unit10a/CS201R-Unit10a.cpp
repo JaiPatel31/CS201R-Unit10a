@@ -3,9 +3,9 @@
 
 int main()
 {
-    exampleList();
+    //exampleList();
     //exampleOrdered();
     //exampleStack();
-    //exampleQueue();
+    exampleQueue();
 
 }
